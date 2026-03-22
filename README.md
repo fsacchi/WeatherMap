@@ -109,6 +109,7 @@
 | [MockK 1.13.12](https://mockk.io/) | Mocking idiomático para Kotlin |
 | [Turbine 1.2.0](https://github.com/cashapp/turbine) | Testes de `Flow` e `StateFlow` |
 | Kotlinx Coroutines Test 1.9.0 | Controle de coroutines em testes (TestDispatcher) |
+| Compose UI Test (JUnit4) | Renderização e asserções de estado em composables (`composeTestRule`) |
 
 ---
 
@@ -194,6 +195,12 @@ Cobertura abrangente de **use cases** e **ViewModels** com JUnit 5 + MockK + Tur
 | `MapViewModelTest` | Estado do mapa, debounce de busca, fallback de GPS, salvamento no histórico |
 | `WeatherDetailViewModelTest` | Carregamento de detalhes e previsão, estados de loading/error |
 | `HistoryViewModelTest` | Listagem, deleção individual e remoção completa do histórico |
+
+---
+
+## Testes de UI (Compose)
+
+Testes instrumentados que verificam o que o usuário **realmente vê na tela**, renderizando composables com estados controlados — sem ViewModel, sem rede, sem banco.
 
 ---
 ## Licença
