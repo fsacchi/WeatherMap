@@ -35,7 +35,7 @@
 
 ---
 
-### Funcionalidades
+### Screenshots
 
 <p float="left">
   <img width="25%" height="45%" src="https://github.com/fsacchi/WeatherMap/blob/main/screenshots/screen1.jpeg" />
