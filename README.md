@@ -35,6 +35,18 @@
 
 ---
 
+### Funcionalidades
+
+<p float="left">
+  <img width="25%" height="45%" src="https://github.com/fsacchi/WeatherMap/blob/main/screenshots/screen1.jpeg" />
+  <img width="25%" height="45%" src="https://github.com/fsacchi/WeatherMap/blob/main/screenshots/screen2.jpeg" />
+  <img width="25%" height="45%" src="https://github.com/fsacchi/WeatherMap/blob/main/screenshots/screen3.jpeg" />
+  <img width="25%" height="45%" src="https://github.com/fsacchi/WeatherMap/blob/main/screenshots/screen4.jpeg" />
+  <img width="25%" height="45%" src="https://github.com/fsacchi/WeatherMap/blob/main/screenshots/screen5.jpeg" />
+</p>
+
+---
+
 ## Tecnologias e Bibliotecas
 
 ### Linguagem & SDK
