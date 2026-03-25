@@ -16,20 +16,10 @@
         android:roundIcon="@mipmap/ic_launcher_weather_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WeatherMap">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.WeatherMap">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.fsacchi.weathermap.provider"
+            android:authorities="${applicationId}.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

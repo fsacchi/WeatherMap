@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_city_hint">Buscar cidade…</string>
+    <string name="history_label">Histórico</string>
+    <string name="tap_for_details">Toque para detalhes</string>
+    <string name="recenter_content_desc">Recentrar</string>
+    <string name="back_content_desc">Voltar</string>
+    <string name="delete_content_desc">Excluir</string>
+    <string name="empty_history_title">Nenhum histórico ainda</string>
+    <string name="empty_history_subtitle">Veja os detalhes do clima da sua cidade para ver o histórico aqui.</string>
+    <string name="share_weather_text">Clima em %1$s: %2$d°C — %3$s</string>
+    <string name="share_chooser_title">Compartilhar clima</string>
+    <string name="share_content_desc">Compartilhar</string>
+    <string name="temp_min">Mín: %1$d°</string>
+    <string name="temp_max">Máx: %1$d°</string>
+    <string name="feels_like">Sensação: %1$d°</string>
+    <string name="details_card_title">Detalhes</string>
+    <string name="humidity_label">Umidade</string>
+    <string name="wind_label">Vento</string>
+    <string name="pressure_label">Pressão</string>
+    <string name="sunrise_label">Nascer do sol</string>
+    <string name="sunset_label">Pôr do sol</string>
+    <string name="forecast_card_title">Previsão</string>
+    <string name="precipitation_card_title">Chuva nos próximos dias</string>
+    <string name="precipitation_chance">%1$d%%</string>
+    <string name="by_open_weather">Fornecido por OpenWeather</string>
+    <string name="ok">OK</string>
+    <string name="error_share_screen">Erro ao compartilhar informações de temperatura</string>
+    <string name="today">Hoje</string>
+    <string name="clean_history">Limpar Histórico</string>
+</resources>

@@ -28,9 +28,19 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
 
-        buildConfigField("String", "OWM_API_KEY", "\"${localProperties.getProperty("OWM_API_KEY", "")}\"")
-        buildConfigField("String", "BASE_URL", "\"https://api.openweathermap.org/\"")
+    flavorDimensions += "version"
+
+    productFlavors {
+        create("map") {
+            dimension = "version"
+            applicationIdSuffix = ".map"
+        }
+        create("simple") {
+            dimension = "version"
+            applicationIdSuffix = ".simple"
+        }
     }
 
     buildTypes {
@@ -59,6 +69,15 @@ android {
 }
 
 dependencies {
+    "mapImplementation" (project(":feature:map"))
+    "simpleImplementation" (project(":feature:simple"))
+
+    implementation(project(":data"))
+    implementation(project(":domain"))
+    implementation(project(":core:network"))
+    implementation(project(":core:database"))
+    implementation(project(":core:ui"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
@@ -74,17 +93,6 @@ dependencies {
 
     implementation(libs.koin.android)
     implementation(libs.koin.androidx.compose)
-
-    implementation(libs.retrofit)
-    implementation(libs.retrofit.kotlinx.serialization)
-    implementation(libs.okhttp)
-    implementation(libs.okhttp.logging)
-    implementation(libs.kotlinx.serialization.json)
-    implementation(libs.kotlinx.coroutines.android)
-
-    implementation(libs.room.runtime)
-    implementation(libs.room.ktx)
-    ksp(libs.room.compiler)
 
     implementation(libs.coil.compose)
 
